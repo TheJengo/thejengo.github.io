@@ -11,6 +11,7 @@ module.exports = {
       {name:'twitter', username:"thejengo", link:"https://twitter.com/thejengo"}
     ]
   },
+  pathPrefix: "/thejengo.github.io",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -80,11 +81,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
+        // head: true,
       },
     },
     { 

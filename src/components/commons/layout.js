@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
                 {` `}
                 <FaHeart color="red"/> by
                 {` `}
-                <a href="https://github.com/thejengo" ref="no-referer">TheJengo</a>
+                <a href="https://github.com/thejengo" rel="noopener noreferrer">TheJengo</a>
               </Col>
             </Row>
             <Row>

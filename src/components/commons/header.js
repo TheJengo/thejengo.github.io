@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => {
                 </Navbar>
               </Col>
             </Row>
-          );
+          )
         }}
       </Location>
       
