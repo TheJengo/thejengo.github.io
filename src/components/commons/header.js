@@ -4,7 +4,8 @@ import { Row, Col, Nav, Navbar } from 'react-bootstrap'
 import { Location } from '@reach/router'
 
 const linkStyle = {
-  color : 'rgba(0,0,0,0.7)'
+  color : 'rgba(0,0,0,0.7)',
+  
 }
 
 const Header = ({ siteTitle }) => {

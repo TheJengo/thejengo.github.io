@@ -3,8 +3,8 @@ import Img from 'gatsby-image'
 import { Row, Col } from 'react-bootstrap'
 
 class ProjectItem extends React.Component {
-    constructor({ image, name, description, technologies, isLeft, link, motto }) {
-        super({ image, name, description, technologies, isLeft, link, motto })
+    constructor({image, name, description, technologies, isLeft, link, motto}) {
+        super({image, name, description, technologies, isLeft, link, motto})
         this.state = {
             innerWidth : 0
         }

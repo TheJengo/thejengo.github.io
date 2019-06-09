@@ -11,7 +11,7 @@ module.exports = {
       {name:'twitter', username:"thejengo", link:"https://twitter.com/thejengo"}
     ]
   },
-  // pathPrefix: "/thejengo.github.io",
+  pathPrefix: "/thejengo.github.io",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -70,7 +70,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-catch-links',
@@ -84,8 +84,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-        // head: true,
+        trackingId: `UA-141758312-1`,
+        head: true,
       },
     },
     { 
