@@ -11,7 +11,7 @@ module.exports = {
       {name:'twitter', username:"thejengo", link:"https://twitter.com/thejengo"}
     ]
   },
-  pathPrefix: "/thejengo.github.io",
+  // pathPrefix: "/thejengo.github.io",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
