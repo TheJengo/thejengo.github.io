@@ -1,0 +1,1310 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:125%/1.4 'Cabin Condensed','georgia',sans-serif;box-sizing:border-box;overflow-y:scroll;-webkit-font-smoothing:antialiased;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.87);font-family:'Cabin Condensed','georgia',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";letter-spacing:.03em;}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;color:inherit;font-family:'Patua One',sans-serif;font-weight:400;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;color:inherit;font-family:'Patua One',sans-serif;font-weight:400;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;color:inherit;font-family:'Patua One',sans-serif;font-weight:400;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;color:inherit;font-family:'Patua One',sans-serif;font-weight:400;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;color:inherit;font-family:'Patua One',sans-serif;font-weight:400;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;color:inherit;font-family:'Patua One',sans-serif;font-weight:400;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}ul{margin-left:1.4rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.4rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;font-size:0.85rem;line-height:1.4rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;font-size:1rem;line-height:1.4rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}blockquote{margin-left:-1.4rem;margin-right:1.4rem;margin-top:0;padding-bottom:0;padding-left:1.1375rem;padding-right:0;padding-top:0;margin-bottom:1.4rem;font-size:1.1487rem;line-height:1.4rem;color:hsla(0,0%,0%,0.6);border-left:0.2625rem solid hsla(0,0%,0%,0.87);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.4rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.4rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.4rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.4rem;margin-bottom:calc(1.4rem / 2);margin-top:calc(1.4rem / 2);}li > ul{margin-left:1.4rem;margin-bottom:calc(1.4rem / 2);margin-top:calc(1.4rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.4rem / 2);}code{font-size:0.85rem;line-height:1.4rem;}kbd{font-size:0.85rem;line-height:1.4rem;}samp{font-size:0.85rem;line-height:1.4rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.93333rem;padding-right:0.93333rem;padding-top:0.7rem;padding-bottom:calc(0.7rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}a{color:inherit;}a:hover{color:#3498DB;}@media only screen and (max-width:480px){blockquote{margin-left:-1.05rem;padding-left:0.7875rem;margin-right:0;}}</style><style data-href="/styles.a08cd6d20fc7519c26df.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.wrap{margin:10px 0;width:100%;padding:0;display:flex;align-items:space-around;height:calc(100% - 40px)}.tile{width:100%;margin:10px;background-color:#333;display:inline-block;background-size:cover;position:relative;cursor:pointer;-webkit-transition:all .4s ease-out;transition:all .4s ease-out;box-shadow:0 35px 77px -17px rgba(0,0,0,.44);overflow:hidden;color:#fff;font-family:Roboto}.tile .text{position:absolute;padding:30px;height:calc(100% - 60px)}.tile h1{font-weight:600;margin:10% 0 0;text-shadow:2px 2px 10px rgba(0,0,0,.3)}/ .tile h2{font-weight:100;font-style:italic;-webkit-transform:translateX(-400px);transform:translateX(-400px)}.tile p,/ .tile h2{margin:20px 0 0;-webkit-transition-delay:.2s;transition-delay:.2s}.tile p{font-weight:900;line-height:25px;-webkit-transform:translateX(-200px);transform:translateX(-200px)}.animate-text{opacity:0;-webkit-transition:all .6s ease-in-out;transition:all .6s ease-in-out}.tile:hover{background-color:#333;box-shadow:0 35px 77px -17px rgba(0,0,0,.64);-webkit-transform:scale(1.05);transform:scale(1.05)}.tile:hover .img{opacity:.2}.tile:hover .animate-text{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}.dots{position:absolute;bottom:20px;right:30px;margin:0 auto;width:30px;height:30px;color:currentColor;display:flex;flex-direction:column;align-items:center;justify-content:space-around}.dots span{width:5px;height:5px;background-color:currentColor;border-radius:50%;display:block;opacity:0;-webkit-transition:opacity .5s ease,-webkit-transform .4s ease-out;transition:opacity .5s ease,-webkit-transform .4s ease-out;transition:transform .4s ease-out,opacity .5s ease;transition:transform .4s ease-out,opacity .5s ease,-webkit-transform .4s ease-out;-webkit-transform:translateY(30px);transform:translateY(30px)}.tile:hover span{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}.dots span:first-child{-webkit-transition-delay:.05s;transition-delay:.05s}.dots span:nth-child(2){-webkit-transition-delay:.1s;transition-delay:.1s}.dots span:nth-child(3){-webkit-transition-delay:.15s;transition-delay:.15s}</style><meta name="generator" content="Gatsby 2.7.1"/><title data-react-helmet="true">blog | Cengiz Cebeci</title><link data-react-helmet="true" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/><meta data-react-helmet="true" name="description" content="This is the test blog."/><meta data-react-helmet="true" property="og:title" content="blog"/><meta data-react-helmet="true" property="og:description" content="This is the test blog."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@TheJengo"/><meta data-react-helmet="true" name="twitter:title" content="blog"/><meta data-react-helmet="true" name="twitter:description" content="This is the test blog."/><meta data-react-helmet="true" name="keywords" content="thejengo, blog, software engineering"/><link rel="shortcut icon" href="/icons/icon-48x48.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=363e1603389a4fbfb3ed58a4d3f71d6b"/><link href="//fonts.googleapis.com/css?family=Patua+One:400|Cabin+Condensed:400,700" rel="stylesheet" type="text/css"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-141758312-1', 'auto', {});
+      
+      
+      
+      }
+      </script><link as="script" rel="preload" href="/webpack-runtime-6c630f63089c4bb11eb8.js"/><link as="script" rel="preload" href="/app-1e14bf529a656de4784f.js"/><link as="script" rel="preload" href="/styles-b5291e72e1cec0275602.js"/><link as="script" rel="preload" href="/1-8cb043ed89e8da732c33.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-5c9925bf034f50533d9e.js"/><link as="fetch" rel="preload" href="/static/d/626/path---15-dakikada-selenium-ile-testlenin-2-e-0-dd3-zZZbI5kO3PgeXy6LVJu2hASHqng.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="container-fluid"><header><div class="justify-content row"><div class="align-center col-lg-10 col-md-8 col-sm-12 offset-lg-1"><nav class="navbar navbar-expand-lg navbar-light sticky-top"><a href="/" class="navbar-brand">Cengiz Cebeci</a><button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button><div class="justify-content-end navbar-collapse collapse" id="responsive-navbar-nav"><div class="navbar-nav"><a style="link-style:[object Object]" href="/" data-rb-event-key="/" class="nav-link">Home</a><a style="link-style:[object Object]" href="/about" data-rb-event-key="/about" class="nav-link">About</a><a style="link-style:[object Object]" href="/work" data-rb-event-key="/work" class="nav-link">Work</a><a style="link-style:[object Object]" href="/project" data-rb-event-key="/project" class="nav-link">Project</a><a style="link-style:[object Object]" href="/blog" data-rb-event-key="/blog" class="nav-link">Blog</a></div></div></nav></div></div></header><main><div class="row"><div class="col-lg-8 col-md-12 col-12 offset-lg-2"><div class="row"><div class="col"><h1 style="margin-bottom:1rem;font-family:avenir">15 Dakikada Selenium İle Testlenin</h1><div class="blogpost" align="justify"><h1>Selenium Test Framework Nedir?</h1>
+<p>Selenium otomatize edilmiş bir şekilde web projelerinizi fonksiyonel olarak test
+edebileceğiniz bir Test Framework’ü olarak bilinir. Selenium ile Chrome’dan
+Internet Explorer’a kadar hemen hemen tüm tarayıcılar için ister tarayıcıların
+desteklediği uzantılar ile isterseniz masaüstü uygulaması ile isterseniz de
+sizin seçtiğiniz bir programlama dili ile kolayca sayfalarınızı veya her hangi
+bir internet sayfasını test edebilirsiniz. Peki nasıl mı?</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/8db1f3974a98a3dbc0af13aad5ec4c80/04c1a/sums.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 29.624478442280942%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMElEQVQY022Rb0vCUBjF/caBn0HQfNsroUBBtBflqxKa4FQK07ZMIvtLrUAXK2emTqfb/eW2ZgkeuNzn3uecw8N5IkIIPIi+AeNvv3Zd179nsxnGh8FwMGQ8nmDZ1pIY9ENdCO/tnYhv4DjMzyvM+59rpE6nw4WiUKpKJArbKM/qWr83eGRiviOs6erPNzSGNtVWD00fYds2hcLhcjqbZrOJdCKR3E2Q3Ev6grvbG8pyxa8PGnGeduJYZ3Vmb6/MdT0wNA2ThvpCt9vHWcyRZdkX7OfzxGIxctkc0a0oiqqg97pcta7RRw9I9xnM4hGjWo2v4jETVQ0MxeUplAo49bIXxmr8drtNKpUim82SzqTRNI1N+J9mkOF0irtYIJZZesFuCj2E13Nd8buEP164lB+rGrwsIQ0R6QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java + Selenium + JUnit"
+        title=""
+        src="/static/8db1f3974a98a3dbc0af13aad5ec4c80/b9e4f/sums.png"
+        srcset="/static/8db1f3974a98a3dbc0af13aad5ec4c80/cf440/sums.png 148w,
+/static/8db1f3974a98a3dbc0af13aad5ec4c80/d2d38/sums.png 295w,
+/static/8db1f3974a98a3dbc0af13aad5ec4c80/b9e4f/sums.png 590w,
+/static/8db1f3974a98a3dbc0af13aad5ec4c80/04c1a/sums.png 719w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h1>Selenium ile Nasıl Test Yapılır?</h1>
+<p>Bu yazıda sizler Selenium ile kod üzerinden yapacağımız bir örnek ile
+karşılaşacaksınız ve POM(Page Object Model) dediğimiz modelleme ile Selenium ile
+yazacağımız testleri Java ortamında JUnit Test Framework yardımıyla yazıyor
+olacağız.</p>
+<p>Uzun lafın kısası ihtiyacımız olanlar aşağıdaki tablodadır.</p>
+<table>
+<thead>
+<tr>
+<th>Java için:</th>
+<th>C# için:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Selenium WebDriver Kütüphanesi</td>
+<td>Selenium WebDriver Kütüphanesi</td>
+</tr>
+<tr>
+<td>JUnit</td>
+<td>NUnit</td>
+</tr>
+<tr>
+<td>Test etmek istediğiniz Tarayıcı için ilgili Driver Kütüphanesi</td>
+<td>Test etmek istediğiniz Tarayıcı için ilgili Driver Kütüphanesi</td>
+</tr>
+</tbody>
+</table>
+<h2>Adım adım Teste Doğru</h2>
+<ol>
+<li>Driverları indirelim:</li>
+</ol>
+<p><a href="https://www.seleniumhq.org/download/">https://www.seleniumhq.org/download/</a> sitesine girip,</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/d81f308ae5374d44ad5961471f21281f/17788/s1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 54.545454545454554%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABjElEQVQoz42R2ZKjIBSG8/7P1nOXpRONioKyqoAC4tbHpHuqr6bmr0L+OvJxFk5pkmTPZ57lYK6Xc/bMwH/e77fr7Xa9GmPWdZ3+KoQYjx2C+76fqhKBmqYpUI5QkWdPWGn6gHiR5+URyossb0itpMK4IphgjEPwB0zrmhBSgcoK/qGKYdohogjtGVecMUqp4FJr3fe9tbZVCtwwDAfcKgl0C1ItHOVcjM47Pzkf1nXbDx3fbYM6N6h2nudlmdd1eWVuGkoZOKM1KhDcWhbofvuERqi0TI2ic5iazgTM7BTX/ZcOOMYIztqBcwlGCpk+EmPso1DnhCdI/bk0Oe4+Lo0ZplcVP7AUQik5jiO0JDh3zuleE1y70dXMlrUmzKZlS+WQoNb5+buNN4wrmBMeX/Lej8PLOLBBm3FwU4jL4OIUFyCXZd1+dMCQkAt4hc4YHbx3DkrooAVrrDUaxvNO8j69/dIBwwChnnOiRBd465UO67b/p04xznkpipLAnKTsOBPwsFIqIQTk/zf8BfJKbeusOkYbAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="selniumhq.org/download page"
+        title=""
+        src="/static/d81f308ae5374d44ad5961471f21281f/b9e4f/s1.png"
+        srcset="/static/d81f308ae5374d44ad5961471f21281f/cf440/s1.png 148w,
+/static/d81f308ae5374d44ad5961471f21281f/d2d38/s1.png 295w,
+/static/d81f308ae5374d44ad5961471f21281f/b9e4f/s1.png 590w,
+/static/d81f308ae5374d44ad5961471f21281f/17788/s1.png 737w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Kısmından geliştirmek istediğiniz dile uygun paketleri indirerek devam
+edelim. Ben yukarıdaki ekran görüntüsünün üstünde yer alan Selenium
+Standalone Server 3.13.0 versiyonunu indirip kullanıyor olacağım.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/c6ed5ede4740add5d2d2f374886dd275/7a97d/s2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 25.218658892128282%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAyUlEQVQY03WO4Y7CIBCE+/7vVxVrFVoEKRQoUCrQ9m71EnN/nGyyX3Yzk6mOdd0gdEaoPhzw7Xo6IudcKSWl9IR5C3hZYs7po5Lzvu8VAce1bduGENIRfD6htrlQSu8vwaZ91wEQjGkP3MONcx5CeJnhwe7swRlj4iHMEiM81m37+S6w/UE1hzBNzhpjrVMaKrsIfu8BvPfvKKdtHG2UZhZqDjF9UiprrZJqEELKQY9qVEprraSEKsMgmJh6bjE1XIaybimv/0v9AubEGS6TWXtsAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="selniumhq.org/download detail"
+        title=""
+        src="/static/c6ed5ede4740add5d2d2f374886dd275/b9e4f/s2.png"
+        srcset="/static/c6ed5ede4740add5d2d2f374886dd275/cf440/s2.png 148w,
+/static/c6ed5ede4740add5d2d2f374886dd275/d2d38/s2.png 295w,
+/static/c6ed5ede4740add5d2d2f374886dd275/b9e4f/s2.png 590w,
+/static/c6ed5ede4740add5d2d2f374886dd275/7a97d/s2.png 686w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<ol>
+<li>
+<p>Yok ise JUnit indirelim biz bu projemizde JUnit 4 kullanıyor olacağız.</p>
+<ul>
+<li><a href="https://github.com/junit-team/junit4/wiki/Download-and-Install">https://github.com/junit-team/junit4/wiki/Download-and-Install</a>
+adresinden ilgili adımları takip edip indirebilir ve eclipse içinde
+bulunan plugins dosyası içine dahil edebilirsiniz.</li>
+</ul>
+</li>
+<li>
+<p>Testlerinizin çalışmasını istediğiniz Tarayıcının sürücüsünü(driver)
+indirelim ve çalıştıralım bu projede Chrome ile çalışıyor olacağımız için
+<a href="http://chromedriver.chromium.org/downloads">http://chromedriver.chromium.org/downloads</a> bu linkten
+“Chrome_driver.exe” tarzında adı olan exe dosyasını sisteminize uygun olan
+versiyonunu indirip exe’yi çalıştırın ve tamamdır.</p>
+</li>
+<li>
+<p>Şimdi yeni bir Java projesi oluşturalım.</p>
+</li>
+</ol>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/520749bb6dd1973afb63ee024cdad051/b4523/s3.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 525px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 95.04761904761905%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACeElEQVQ4y41T2W7TQBT1n4JUHloqhEQfkPgIvgHxwBPqE1JBQrSlVfcsdIsTO3G9zuoZjydjZ3ESbtIWRKEtR1dX9vU9c5c5tl6tH748xqsN8aIpVmt85YSunJDndb606Tz9fP5k4/TZtrdSYxAEv3yYLG11l9f33r1+835tzfrY7B7Z3eNetH3ePotZVFS+Hgb90VVeepkB8/MBvP4yLyvqPmpjvBNp6yhiGY4pxjgKGUKzx1CNx1RpY9hpXFoHIZuV+cDkg8KoXBdl+bCZwsiMY0LrgbK+XHhHp72ay2Ou+zqXfyIDy/42pZXqUGlt2OjDsX77Ld1oYCVTA4eXg3JRpBwM+sb804zWbSKt/YCaTPjdlttpOx1HqVykqcyUEIJRNhqNptPJHcDkmRQ/fGTt+axQ0nVaruN1HZcypvNcKQUjqExV1eTOwqbTKfiUsYYXWTserVSMIhchOvsPXJPhdk4cf04ecjfsXsQxxggR2CPGhNDhcPgAmTNa74Vz8jgLUOCacp49hnscgauuk+4DzHQWEiCT2TAPfDdOEMUkz/X18bCYCiaeTO6TSodm1q6HITlO4iAIMcKUUM44nAKd4wQxxh8if+/RYdqLvJbddgtjoGb1GzfF7wByyqJoJRzIiZGccwZF0jSFe1a3ACXda0LYKIW20aCvQRW3hMcB+oSFOdD2djc2Si6qzgE9wCNfPEmRipSLeWQR5DdJID74NK+82Q6TMIKSICj4DZSUBGPJ2QXWXy/RVoc1Ew1aJRhJ4FMCKm7Uao7duoyI9ckGcVGHpC5JnYW1E9pBrBmLPY8d+LweCYfweRBzO6FnXlh3r8Dv+/Qn78cY1sr7BoMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 1. adımı"
+        title=""
+        src="/static/520749bb6dd1973afb63ee024cdad051/b4523/s3.png"
+        srcset="/static/520749bb6dd1973afb63ee024cdad051/cf440/s3.png 148w,
+/static/520749bb6dd1973afb63ee024cdad051/d2d38/s3.png 295w,
+/static/520749bb6dd1973afb63ee024cdad051/b4523/s3.png 525w"
+        sizes="(max-width: 525px) 100vw, 525px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/b5a6fd648009457c1607990ab268a360/90647/s4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 531px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 135.02824858757063%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAA7CAAAOwgEVKEqAAAAEd0lEQVRIx41WW28bVRDO76QgpIoKxFN554FfwRs/gSqgSgUJQdLSJE4waeLYa+/9ft+zV6+dFvVj5uzacVUJEenz7Nk9O2dmvm9mc/T0xwm+/tPBlxchvpIIpH1y5uPxiYFPjq/w6fM3ePTzFR79NMXjUwtPXrsED1+cmvj8lxk+e3aBH55+g++//Q5Hx4qPs4WOiRngpWLgXHPxcmFALdfwNu9h1j2segO72Urr9P/A7t7Bat8S7mE29zDKEteWj2O9wtFt1kAEHvIkRhr4iD0PaRigzjOINEHf1Ni0DRpRoC0FyjTF+/t7HP7ZjokXFxqeK+TwOmvxbrtBu+6xJnSEfrNB161R1TWappWo6wZ108h7/Iz3rPsNNpseK6/GTK/xm17gaOIXyKMQURQjSRIEQYAwpHUYoaRUdqiq6gMrhNijqSu8bQpMgtGhq2vQDQO2bcOyLJi6Addx5csNRfWfoIhLwroqwb6OLvwcgWND0zRoqgZD12W0XdehKCj6PJd2hzwv9vd3EeaEnqK8DASO+KcuMiRUbN/3qcCOjKymUz0iiCPmewzLsmUWtu1IG1OJoiiCTyVqy4OUQ9osysEJo6pqWfzduuQDxhSrg+fSEgQ935AaJhzhVVQi9j15KkfksHVdOByRacI0TDqslKVQV6okjcljxCNCKlFFErsM2WFILGaJTMcZU7FMixwYSKkMXC+OxqVDGEUhBhlRtB3ps1+3VO8Gm1oMEV6SwypLoShLzO/usJgvsFousaS17wcUUYg4jmXx2RnXlwljxEUDO65hEUReDhHyT0td4FMqrutR2j7pMJIEMXjNDtnRoQbZulEB1c2wJOSZwFU4shwQkxrVyKSa7cmglA67g+sopMgrSRJbFnTbcDfV2LY7UihlQX2sKMo+VVVVoWu6BGtTHwlhZFmOeox0h0KUxHI1OPwrqpDQUFiuVvJllSy/yM44Yu4gthod4nD3SLmUSKlmMzPDnZXh2kiJwIOUM5oujjvUqmk7tN0AmW71oLuS7C5l1m1WlBIJoasOOiXxXdzezqAslH0/G6S/cBwQh4Ngh2FQlHvh71Nmlrn1pKgpJRZsQX2aJqlkdd3zWFt/BO4allFIrReTXvu6fHDY0UlibK+ONm+2W5pzW/R9L9cMLsF6vOa5yWtBZKRZRmmLB4fn1Mt+mEomF3NmeoUVM03EsMiZqOVyIIrZZ8tKYLBGbe4w0u8H06ahmnCnrEaGebOyWJBViG1NXuvkeN9FdAD3OY8wRpJm1Ho7h5Ry33C6Ldr2YzTUr9I2zYf3pQLG7mFS6gNSOFxxINT/i51DfpdZlr3ME5u/ZhlP4QMI2QFiuBZD2+VyatOkLsU4LPJhPz3r6N65lxMpNs02kkxHUTL4c+nZFmbXU6wWc7iWAWV2g/nNDXy+H9Q4mft4pdGEohRdQ8Wb6RSeusSZFdGHXs8wdRNMaXz/TZhSxGdGgD8UC69UF691HydLC6crB2f0z8DvVoEXaoJfjRwnFu/l5zYmuodnWoJ/AXvdxDYuFJlRAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 2. adımı"
+        title=""
+        src="/static/b5a6fd648009457c1607990ab268a360/90647/s4.png"
+        srcset="/static/b5a6fd648009457c1607990ab268a360/cf440/s4.png 148w,
+/static/b5a6fd648009457c1607990ab268a360/d2d38/s4.png 295w,
+/static/b5a6fd648009457c1607990ab268a360/90647/s4.png 531w"
+        sizes="(max-width: 531px) 100vw, 531px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Buraya kadar farklı bi işlem yapmadık altı üstü Eclipse üzerinde yeni bir
+java projesi açtık. Şimdi olay buradan sonra başlıyor. Yukarıdaki ekrandan
+sonra Next tuşuna basınca karşımıza gelen ekranda “Libraries” sekmesine
+giriyoruz ve Add Library deyip JUnit kütüphanesini projemize dahil ediyoruz.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/3da5e1ec8413e057613b7334d35ca3cb/a2eea/s5.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 529px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 135.53875236294897%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAIAAADzvTiPAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC5klEQVQ4y+VU246jRhDlQycPK2VG2rxFiiJF+ZP9iCib3WQ3D5EynvH4gomNbxjo5toNbWzobmgws76lsUfK00TkOUdFUdXUqSpRpVa+/WnwzaP/dkjeDqK7bnD76N92w6877s179atfJzcftJtfNOnePaG7bnjb8d78Pr/5WX333ffvfvhReb/CQ9v7Y2reL6FTfAl3J786OMUzoCWgArJKaum64stVnPzZYWzihR8hU/SEZyggCBEc0vWaJkmV5+dXcLpohNzPfeuTQZVxUtRCFKIUQuR5wXnO86KsqkbKalfXu139oi94rncAcx3kHZgpTy7GlmZaEELXtoFhWBAsfbAC0EOeZRqL+Xw5n82BDdkVlOU5P5RMJ5kyxGnkO5Lpuh6wgef5GCFfvvxA1quuLVSVEKVs5CKlKKv9rprEVBnFvKCb0LcwjiOESRRjHAVhuN2m+/3heDw2z/HoB4FlWSNV7ff7pmUF0B6FG0WN6fmwP53/DafTCUfReDx+6vZUdTTSxshzNbRV1KgVOUKBuZiO+j2197SY6rELtKZyC/L5dJxh1nGyzxPn09j5E6ZawAcoa0uGJBtY4b1m3P9l9AzPwlsVpe3I57ML7f5jp/fQGfa6vccHZzHV0KYtOQgCw1gBAG0AjJXpAzCO2rUtRyXHW9e13D7GeFXXx3qnyzm3JGeUUsYIITEhKaWCsf9QWS6YXH65nTJLXhSHutJJ68qFEJvtdr1O0nS72abPpZi0bPtwwT+5LtGzhP8vyUOclVxeD5y9LnLERdHcBldIc78rr387qxryq+DXy0cmoC9RctSS0sx50FSmmzRLs0bkB8ZzGdXYFzdNXw4Z59JoVo3nZc7Gcar0/SRBSORMcJrTFAeeMdVtY5nEUZas0zWRTSOEl/PFyjDDAIWeO9f10DZHfqx8dDZ6QGYkm5NsFqdDB3cWoGu6mk8mKJEyjbKhS+6XzoMZDJx4CMOHJVRt7zdA/gb+Ht7FPUDfsAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 3. adımı"
+        title=""
+        src="/static/3da5e1ec8413e057613b7334d35ca3cb/a2eea/s5.png"
+        srcset="/static/3da5e1ec8413e057613b7334d35ca3cb/cf440/s5.png 148w,
+/static/3da5e1ec8413e057613b7334d35ca3cb/d2d38/s5.png 295w,
+/static/3da5e1ec8413e057613b7334d35ca3cb/a2eea/s5.png 529w"
+        sizes="(max-width: 529px) 100vw, 529px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/35d38fd2db4bf99ff2a362bef62d6382/a2eea/s6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 529px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 135.53875236294897%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAIAAADzvTiPAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADMElEQVQ4y61TW28TVxA+P7h9KE8Nyg9AopQKeKkc8oTUVkIgEAWaArGpndi5ON713bu213s9Z6/n7MXX9W5nY6cOqRpSxKdP4znf7Jyxzsygh8/+zBW5x+XmzmEDLHC30vq5yN19lb//tnjv98zmDuqrUK7EP9o/+enp62ePHj7/5Te0/aKyfazdrrvbded2zVpxi7O/Kwjf7HHf7vG3igM4bp2L358at4r9rVflJ/ce5HaeoD86stjrNTtdVTcWSTqdL2aLGJw43RCOF0ziJA2nvjMNPigBKssmNTHGhBjYc1zPdQM/SDMkl/gPMr9y8IKvVvICRR8HxjQMPMpcxyHEJJhQyqJofA2xJtnE+igY6A3fE7hqo1aziTEOGLXN+ST6V+VPCIDwkYzR0+PuX8ftvXL3qGPILDZnqR6lCruOMk30IN0XMdo9Uh+X/PuF4O47986e/cN778c8y50mO9X0v5nsnqW/1jB6y/d0oSu0W2KrYcjS2PfiafTpI13F+m+PMHp52m6enZ2cVFVVXyzii/B1XC6z5DIkf+gpEfXghSmls9ksvQFWlSuQXJIt8JZJkt4Ym+SiRMCLl+sGfEny8n8U/lrJhb4RT8ZBGN0cYRjOp5ODgQ7J+tinsBFXAILrnvNqxHMcJ2T0cKijfVENqWfaju2s6biunRmHrm64JGY/IFEaMFbqaygvqJaqwUpMAhYxGlLqmMR37BYO37WMgujU9QAGATYugKKWCbPIV6uK2DvsK+h5Q6rLmFNN/oLVkcHJuDKy8j29IOKyZHEKyUSF1GRyJMqldv90oL5uSaghGySc4WhDEs3BWuOZM5nbk8zRgokeTMg4083JwprGwKaKEbHs9HPjscwQX2pVZg3LQSqxYLLdz9EPQmjnin7W1/HIMJFh2YxlW7GB510+sbW2EeHBfcagKtJNC8LQgjU8j/l+9sUFsv6sRMbc8zvAh2R4KzTSDEXR/fPq0NSRJPEc1213CMYmIZZpwpiMFI3nG62OICnacDDguFpfEAaKikRFl1QD6gM1bIrSqNHudsS+pOrZvQZWsSmM1HpHaItDcISh1Oz0hP6wIyl/A8Miyh/9eftOAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 4. adımı"
+        title=""
+        src="/static/35d38fd2db4bf99ff2a362bef62d6382/a2eea/s6.png"
+        srcset="/static/35d38fd2db4bf99ff2a362bef62d6382/cf440/s6.png 148w,
+/static/35d38fd2db4bf99ff2a362bef62d6382/d2d38/s6.png 295w,
+/static/35d38fd2db4bf99ff2a362bef62d6382/a2eea/s6.png 529w"
+        sizes="(max-width: 529px) 100vw, 529px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/a87f30fb72804009bb8dd7668d950128/a2eea/s7.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 529px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 110.2079395085066%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAClElEQVQ4y+1UWU8UQRCef60PogGMGo8YHwxK9EVjYkIwxCgSDxYB2YNd9r5ndue+uqePmdmbBWtmlyNR0R/gNzWd6qr6qror3S08Wf/6LFlbzYnPD9szWc2KT5P1u5v797eS9z7uPficXkk3I1dWXEnWH2/n7r99/+7Rw43Xb4SbHw6Xs8atElosoeWKFwu+XaULKfnaTvV6orqQVsC4VMZLFW+xYN9Iy3e2i2srL16+WhO+tHRVkhqNZqfTGY/Hk+ifjEajyfF0enJy+jsEA47HYcIIhLSOAoIx8rCLKCGcMc45Rgi5rs94HHw5RaQn99ZLudROmwq7ktXnzCOUcUYIsW3b87wg8FkM3/eDIOidIQxDmGLXItjbkyxhqyyKtVq5XGnU6t2uXMgXVEWFFKZpQi4IhVymYZpGBIwxY1DGH/TCVNcUEm3Nsy1N08EHpUqFYgm+QrFaKTdbLUiqarrclSWAKLougk1RSnu+n4zJOmzRth1wgBWKGLpBYReMQR0UlWLxamEIgQlTStmc/K2pOKoCC1YUFciqoiiygrHHzxBHzzFrxEXl3Y417oc86ksAjiCYK1fggvxdMvs+dJvMEl+u8E/kQcDJX+L/k68g/9pwGh8MOlfg+pCezyPyjmiEjCLszQAOErtBPRdKPLDBSCKhYAg4O+gYwnZLs1U94BxWQhCSWs1cJlOrlLHjwKEl2AVySvE/FdWExOsabtfK2Uym22zsi5qwUVVKmpvXUUFHec097JoHLSUt6Ueqc6Taec050twfXbQrWvtdlJGdjKQftJWcbG7WZKGpW2QwnstwQkfHbDxlo2PQyTC2gNIf0sHQH03YcDwL4JNpy3AEG+HTPzw355hGOL54TeJwC3k/Aeeppzp/S5Z0AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 5. adımı"
+        title=""
+        src="/static/a87f30fb72804009bb8dd7668d950128/a2eea/s7.png"
+        srcset="/static/a87f30fb72804009bb8dd7668d950128/cf440/s7.png 148w,
+/static/a87f30fb72804009bb8dd7668d950128/d2d38/s7.png 295w,
+/static/a87f30fb72804009bb8dd7668d950128/a2eea/s7.png 529w"
+        sizes="(max-width: 529px) 100vw, 529px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Her şey hazır olduğuna göre artık Finish deyip projemiz üzerinde çalışmaya
+başlayabiliriz.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/a97a48c71046776eefe8002189ce5c97/841f8/s8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 533px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 134.52157598499062%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAIAAADzvTiPAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADBklEQVQ4y71U2W7bRhTlh7pFH+IC6Vv6WKA/UiCf0CUwCrcPRSDXpEVSYkJZoriOuAz3ZbgMScmi7V7SKdCHOFFRoIcHgzvLmbvMcJhXP/HfXDsvheglH5yz7vm1+zXrvZihszfiF7/KZxfLswvpxZUNg8Dzq91Xv62//HH++tW3P3z3PfNG9QXD/mOlXSkWonde/+B0A2oOJqEmaa2yAwO6O3o3sjmgem+V5J3tX2gZIydVgd0I48jHJI5JkvR1/fhJ7Bx0yVuXm5SRkmZPaU1b2tCqqitA3XR9D2y7ruv38PX7PXSfAKaBq1vUvNVihtv5vi5pummayNBNTTN8bMXY9oM4wpaqbDab7e3t2rJQWZaEAEldl0NXL92YEfw88hzb8VzXsyzLcdzA98e+hw+HPfge/XcdpbRtW2jAaGh77DvRiZlFVBcxXsuspuqe60Vh5PsBKPO8GIbhfgIYtm1rmsbz/M3NXNV0F5k8CphFWB1oGQd2nuXH4/DRCoHew54kSTcsJ4riUnoXuI5gh4wYksf748MnyzuJsaJsBEHg5/x6rYCY34E4II/D8f5hxHNimDIMQ5Zllr1mWU5e3Vrqdo78D+LPenZdd7Va8fM5pP1eXmEb8bvgJPHk2QSvHMtCwTiOszR1yvk0MVRb3aoQvKEb263qITQe1Ylhh1EUhqGhjwjCMIuCf+HZQkhVVVEQRHGhbLe2oZ+aM9yVsqryPAf3QRBmedHTWnSi08TDAJcTxFmWFYQAj32/cJNTxYB/ZDG2Ek7/d/H9tHrp/Yew/xYf72Czh+dxhN/tI+IUHoOCllDAp1fiOcLr0TQNfWJd00PbLqajKrq6JOVnQCY8GXlBuroaw+Zx3pAizYv8A2GqhJPMRqsAZtPopB5nYQQWQLDj9Zw7SYJxW1dtVcIuvrNbv5c0ZZNGAUnjIokoKdZhM1PwtZGqfuFZuixJ2NR4w2V+sdKlmyyDXArypZ9xyJ+p9p+Gy9ux6CWily5x9tYuLo34dyub2Rln4pnm8Mj/WcF/AfEO15tvgtxDAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 6. adımı"
+        title=""
+        src="/static/a97a48c71046776eefe8002189ce5c97/841f8/s8.png"
+        srcset="/static/a97a48c71046776eefe8002189ce5c97/cf440/s8.png 148w,
+/static/a97a48c71046776eefe8002189ce5c97/d2d38/s8.png 295w,
+/static/a97a48c71046776eefe8002189ce5c97/841f8/s8.png 533w"
+        sizes="(max-width: 533px) 100vw, 533px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Finish dedikten sonra Eclipse size “Bu kütüphane arayüzünüzde değişiklikler
+yapacaktır.” diye bir uyarı veriyor. Onayladıktan sonra projeniz Solution
+Ekranında tahmini bu şekilde başlayacaktır.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/6a71ea4beef4bc85c26fceabaa682c44/d3429/s9.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 451px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 33.70288248337029%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA80lEQVQY05WO3U6DQBCFef/H8Am8qWm8a41iqbEaIKUpVFug/C3LAkXYf4fG3nhR48mXTM4kZ84Yh8P+Yz/i7/ysrsLbu/nUmripdTN5nXlm0D+viekRyw4Wb5uFm5suenSKJzux1rkhhKCMUjoAUushitP7eTidoYdlhU6o4WXNEKGIdGXVIdKDBXBN07IzCM7CMD7GxyRKUF5okJJaCBj6qhjjhhQcR3b06fcDgy84ZUJKoWANlqvzjRF15mJBA2UG5yoIVqHveJst9ANZmrZ1cWoxp19X6sewkHrrvazenRI3f776OwyjqXGCWvmP4E/4G5/xjahHZgsnAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Java'da Projenin Hazırlanması 7. adımı"
+        title=""
+        src="/static/6a71ea4beef4bc85c26fceabaa682c44/d3429/s9.png"
+        srcset="/static/6a71ea4beef4bc85c26fceabaa682c44/cf440/s9.png 148w,
+/static/6a71ea4beef4bc85c26fceabaa682c44/d2d38/s9.png 295w,
+/static/6a71ea4beef4bc85c26fceabaa682c44/d3429/s9.png 451w"
+        sizes="(max-width: 451px) 100vw, 451px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Kırmızı daire içine alınan yer ise Eclipse’nin sizi uyardığı arayüzü
+bulunduran JUnit’e ait test sonuçlarını ve durumlarını izleyebildiğiniz
+ekrandır.</p>
+<p>Seçili olarak gördüğünüz lib dosyasını özel olarak kendimiz oluşturuyoruz
+yani projeniz açıldığı zaman çok büyük ihtimalle öyle bir dosyaya sahip
+olmayacaksınız. O yüzden projeye bir lib dosyası ekleyelim. Bu dosyanın
+içine de indirdiğimiz .jar dosyalarını atalım.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/989cb16774ced29ddfbf1767d2c8a26d/8ab6a/s10.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 452px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 9.955752212389381%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAIAAADXZGvcAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAXUlEQVQI122LSQ6AIBDA/P/3TJSAQRmjjOOCuADRuHDXXnppE+f9boBnqagnwAVoA1oVWtkYpS10m2zncFzPH0nwLgpHyxUxiUU9CegFDLlEXlGlF1aSC2ds7s/8AqhPcN7ikQNkAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Selenium'u Java Projesine Eklemek 1. adım"
+        title=""
+        src="/static/989cb16774ced29ddfbf1767d2c8a26d/8ab6a/s10.png"
+        srcset="/static/989cb16774ced29ddfbf1767d2c8a26d/cf440/s10.png 148w,
+/static/989cb16774ced29ddfbf1767d2c8a26d/d2d38/s10.png 295w,
+/static/989cb16774ced29ddfbf1767d2c8a26d/8ab6a/s10.png 452w"
+        sizes="(max-width: 452px) 100vw, 452px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Eklediğiniz dosyaları görmek için lib klasörü üzerine sağ klik -> Refresh
+yaparsanız dosyanız gelecektir.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/b6b1b6d0c8745d64d6f9506f9fa863b8/d68ed/s11.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 45.78651685393259%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABFklEQVQoz32PC0/DIBSF9///mya6Ke1aYAxKH5RnH1ulmd46o2vUnVzIJdzvnNxNnAbGGBbmWPlD0WJWUqGUCXOM09uiGGPfh/P5PM/z+1obOFOcu2EaTrFpzX6fF2WtWm1uZK1VqvHO/4Yv34/TOGZA55lbSyklpYTmj2TQ5bJYeO8pobJY5uyNBOc4x/B7D25Ug1BCMCFgIUuYBhKMvHOQ3Pf93eS6ylBSVhUA11WvsNYaHL0Pn5M/e67gYAwjWAheCF5XFQQaraHnjFGc9134L3m5Szc+ZvIhFUhY3AxEjVCpDK/cIOES0SLebkm9pQ38cnNawa4bXhKMUqJsV2v/VSbQo8wIzw4iyejTLnnepZSXyoYPnxn8sArVd64AAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Selenium'u Java Projesine Eklemek 2. adım"
+        title=""
+        src="/static/b6b1b6d0c8745d64d6f9506f9fa863b8/b9e4f/s11.png"
+        srcset="/static/b6b1b6d0c8745d64d6f9506f9fa863b8/cf440/s11.png 148w,
+/static/b6b1b6d0c8745d64d6f9506f9fa863b8/d2d38/s11.png 295w,
+/static/b6b1b6d0c8745d64d6f9506f9fa863b8/b9e4f/s11.png 590w,
+/static/b6b1b6d0c8745d64d6f9506f9fa863b8/d68ed/s11.png 712w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>İşlemini yaptıktan sonra Selenium kütüphanesinide projenize dahil etmiş
+oldunuz. Dosyalarınız ve projenizin görüntüsü yaklaşık olarak şöyle olması
+beklenmektedir:</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/e9c9d071f5a6ae59ef960a585175928f/07e28/s12.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 446px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 46.41255605381166%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABH0lEQVQoz42Q2W7CMBBF8/9/VPW1S8oDILUsDSRxSOIQb8G7nUCoVamUh4J6dTWeGflYnok4RfsGVhBWdQV2JRdiVdCH1+3jBLwl8sd8tgTThD7Nti8LFK9ZvMDxB4pgXSWfyXKxRghba4dh0MYRJjFTjNuLOy47bnAXmppycxC2wTpyzs+ncTzfSmW8c1rp3rvT0Y/HfhxP5780fkdth8j5vthMQLopipLRMAMSh04JqgQbeh/ujeN4E9bGJqvndP1eFJUQgneHoPNd/cLhYU7qcgeyNM3TDOQgz8AeNnVZUUIRQu2+vQn33kuSQ9hIqbTWYWdGGylk+EIolVQhvwmHo3cGgKxtW4wwYxRjglrUwIaxjmASynvwVedfusBf7mX/uNOBuCMAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Selenium'u Java Projesine Eklemek 3. adım"
+        title=""
+        src="/static/e9c9d071f5a6ae59ef960a585175928f/07e28/s12.png"
+        srcset="/static/e9c9d071f5a6ae59ef960a585175928f/cf440/s12.png 148w,
+/static/e9c9d071f5a6ae59ef960a585175928f/d2d38/s12.png 295w,
+/static/e9c9d071f5a6ae59ef960a585175928f/07e28/s12.png 446w"
+        sizes="(max-width: 446px) 100vw, 446px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Artık istediğiniz gibi testlerinizi yazabilirsiniz ama nasıl?</p>
+<h2>Kolay Bir Başlangıç</h2>
+<p>Selenium ve oalyları anlamak adına basit bir başlangıç yapalım ve TestMain
+adında Main fonksiyonu bulunduran bir sınıf oluşturalım.</p>
+<p>Main metodumuzun hemen üstüne WebDriver’ımızı, ChromeDriver’ımızı ve onun exe
+pathini ve Driver’ımızı bekletmemizi sağlayacak Wait alanlarımızı tanımlayalım :</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">TestMain</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> basics<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>io</span><span class="token punctuation">.</span><span class="token class-name">File</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>chrome</span><span class="token punctuation">.</span><span class="token class-name">ChromeDriverService</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>remote</span><span class="token punctuation">.</span><span class="token class-name">DesiredCapabilities</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>remote</span><span class="token punctuation">.</span><span class="token class-name">RemoteWebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>support<span class="token punctuation">.</span>ui</span><span class="token punctuation">.</span><span class="token class-name">WebDriverWait</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TestMain</span> <span class="token punctuation">{</span> 
+
+    <span class="token comment">// İndirdiğimiz Chrome_driver.exe’mizin dizini </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token class-name">ChromePath</span> <span class="token operator">=</span> 
+                    "<span class="token class-name">C</span><span class="token operator">:</span>\\\\<span class="token class-name">Users</span>\\\\<span class="token class-name">User</span>\\\\<span class="token class-name">Downloads</span>\\\\
+                        <span class="token class-name">WebDrivers</span>\\\\<span class="token class-name">Chrome</span>\\\\
+                        chromedriver_win32\\\\chromedriver<span class="token punctuation">.</span>exe"<span class="token punctuation">;</span> 
+
+    <span class="token comment">// Chrome Sürücülerinize ulaşmamızı sağlayan servis </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">ChromeDriverService</span> service<span class="token punctuation">;</span> 
+
+    <span class="token comment">// Asıl sürücünüz ve Selenium bize sağladığı en büyük nimet olan </span>
+    <span class="token comment">// bulunduğumuz internet sayfasındaki elemanara(elementlere) </span>
+    <span class="token comment">// ulaştığımız ve taracıyı kontrol ettiğimiz arkadaş </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">WebDriver</span> driver<span class="token punctuation">;</span> 
+
+    <span class="token comment">// Bizim için sürücümüzü bekletecek özellik(opsiyonel) </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">;</span> 
+
+    <span class="token comment">// Main fonksiyonumuz </span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span> </code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>Bu noktadan sonra Main fonksiyonu içinde bu değişkenleri kullanmadan önce
+onların kurulumlarını yapacağımız bir Setup() metodu oluşturup ilk atamalarını
+gerçekleştirelim.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token class-name">Setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+    <span class="token comment">// Chrome_driver.exe dizininden servisi oluştur ve başlat </span>
+    service <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ChromeDriverService</span><span class="token punctuation">.</span><span class="token class-name">Builder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">usingDriverExecutable</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token class-name">ChromePath</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">usingAnyFreePort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token keyword">try</span> <span class="token punctuation">{</span> 
+        service<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+        e<span class="token punctuation">.</span><span class="token function">printStackTrace</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">"webdriver.chrome.driver"</span><span class="token punctuation">,</span> <span class="token class-name">ChromePath</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token comment">// Driver nesnesini service bilgilerini kullanarak oluştur </span>
+    driver <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RemoteWebDriver</span><span class="token punctuation">(</span>service<span class="token punctuation">.</span><span class="token function">getUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token class-name">DesiredCapabilities</span><span class="token punctuation">.</span><span class="token function">chrome</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Bütün sayfaları açarken 15ms bekle </span>
+    wait <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">WebDriverWait</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Pencereyi Büyüt </span>
+    driver<span class="token punctuation">.</span><span class="token function">manage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">window</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">maximize</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span> </code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>Bu metotta yukarıdakiler gibi <strong>TestMain.java</strong> dosyasının içerisinde bulunup
+main fonksiyonun altında yer alacaktır.</p>
+<p>Bi Setup var bir şeyleri başlatıyoruz iyi hoş birde bu servisleri ve sürücüleri
+işlerimizi bitirdiğimiz zaman kapatmak için bir <strong>Stop()</strong> metodu da yazalım
+madem tam olsun.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token class-name">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    service<span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    driver<span class="token punctuation">.</span><span class="token function">quit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span> </code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span></span></pre></div>
+<p>Sıra artık Main fonksiyonumuz içerisinde driver ile chrome üzerinde arama
+yaparak başlayalım devamında sonuçlardan sayfalara erişip değerler almakla veya
+basit aksiyonlarla ilgili olacaktır.</p>
+<hr>
+<h3>Google üzerinde arama yapmak:</h3>
+<p>Main metodumuzu aşağıdaki şekilde doldururusak Chrome’un otomatik olarak açılıp
+ilgili alanlara ilgili işlemleri yaptığını göreceksiniz .</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+    <span class="token class-name">Setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token comment">// Google sayfasını Açar </span>
+    driver<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"https://www.google.com/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Arama kutusunun bilgilerini getirir ve bunu yaparken id'sini </span>
+    <span class="token comment">// kullanarak erişir </span>
+    <span class="token class-name">WebElement</span> txtSearch <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token string">"lst-ib"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Ara butonuna "name" özelliği üzerinden erişir </span>
+    <span class="token class-name">WebElement</span> btnSearch <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">name</span><span class="token punctuation">(</span><span class="token string">"btnK"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Arama kutusuna aranacak değerleri gönder </span>
+    txtSearch<span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span><span class="token string">"Oyak-Renault Bursa"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Arama Butonuna bas </span>
+    btnSearch<span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Veya Enter tuşuna bas </span>
+    <span class="token comment">// txtSearch.sendKeys(Keys.ENTER); </span>
+    
+    <span class="token class-name">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>By.id , By.name, By.cssSelector gibi seçiciler diğer elementlere ulaşma
+tiplerine nazaran Selenium alt yapısında çok iyi hazırlandıkları ve köklü
+oldukları için daha hızlı yanıt verirler. Hatta bazen o kadar hızlı yanıt
+verirler ki sonraki adıma geçilene kadar bazı aksiyonlar ve animasyonlar
+gerçekleştiği için sayfada elementlerin değiştiği durumlarda bu durumları
+“handle” edemezler. Bu tarz sorunlarda Seleniumun hızını kesmek için tabiri
+caizse ayağına ”<strong>Thread.sleep(500); (1000,2000)</strong>” gibi satırlarla taş bağlarız
+ki adımları atlamasın ya da sorun çıkmasın diye.</p>
+<h3>Googledan ulaşılan sayfa hakkında bilgi edinmek ve JUnit ile test etmek:</h3>
+<p>Şimdi işleri biraz daha ilginçleştirelim butonu şimdilik devreden çıkaralım
+normal bir insanmışcasına ‘’Enter’’ tuşu ile arama yaptırıp çıkan sonuçlardan
+birisini seçip devam edelim ve girdiğimiz sayfanın linki ile olmasını
+istediğimiz linki JUnit kullanarak karşılaştıralım.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">Setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token comment">// Google sayfasını Açar </span>
+    driver<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"https://www.google.com/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Arama kutusunun bilgilerini getirir ve bunu yaparken "id"sini </span>
+    <span class="token comment">// kullanarak erişir </span>
+    <span class="token class-name">WebElement</span> txtSearch <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token string">"lst-ib"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Ara butonuna "name" özelliği üzerinden erişir </span>
+    <span class="token class-name">WebElement</span> btnSearch <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">name</span><span class="token punctuation">(</span><span class="token string">"btnK"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Arama kutusuna aranacak değerleri gönder </span>
+    txtSearch<span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span><span class="token string">"Oyak-Renault Bursa"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Enter tuşuna bas </span>
+    txtSearch<span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span><span class="token class-name">Keys</span><span class="token punctuation">.</span>ENTER<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Arama sonuç listesi içindeki başlıkları getir </span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">WebElement</span><span class="token punctuation">></span></span> resultTitles <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElements</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">className</span><span class="token punctuation">(</span><span class="token string">"r"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Başlıklardan istenilene tıkla </span>
+    resultTitles<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Driver’ın yönlendiği adresi getir ve eldeki address ile aynı </span>
+    <span class="token comment">// olup olmadığını JUnit kütüphanesindeki varsayım metoduyla </span>
+    <span class="token comment">// kontrol et </span>
+    <span class="token function">assertEquals</span><span class="token punctuation">(</span>driver<span class="token punctuation">.</span><span class="token function">agetCurrtenUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"&lt;http://www.oyak-renault.com>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    
+    <span class="token class-name">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>İşte gördüğünüz gibi Selenium ve JUnit ile test yapmak Chrome, IE, Firefox gibi
+tarayıcılarda web projelerinizi ve fonksiyonel yönlerini kontrol etmek işte bu
+kadar basit buradan sonrası sizlerin yaratıcılığına kalıyor, ihtiyaçlarına
+kalıyor. Son olarak TestMain.java dosyamız aşağıdaki gibi gözükmektedir.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token operator">|</span> <span class="token class-name">TestMain</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> basics<span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>io</span><span class="token punctuation">.</span><span class="token class-name">File</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util</span><span class="token punctuation">.</span><span class="token class-name">List</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token keyword">static</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">Assert</span><span class="token punctuation">.</span>*<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">By</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">Keys</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebElement</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>chrome</span><span class="token punctuation">.</span><span class="token class-name">ChromeDriverService</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>remote</span><span class="token punctuation">.</span><span class="token class-name">DesiredCapabilities</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>remote</span><span class="token punctuation">.</span><span class="token class-name">RemoteWebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>support<span class="token punctuation">.</span>ui</span><span class="token punctuation">.</span><span class="token class-name">WebDriverWait</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TestMain</span> <span class="token punctuation">{</span> 
+    <span class="token comment">// Chrome_driver.exe'nin dizini</span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token class-name">ChromePath</span> <span class="token operator">=</span> <span class="token string">"C:\\\\Users\\\\at03178\\\\Downloads\\\\WebDrivers\\\\Chrome\\\\chromedriver_win32\\\\chromedriver.exe"</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Chrome kullandığımız Chrome servisi </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">ChromeDriverService</span> service<span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Web Elemanlarına ulaşmak istediğimizde bize yardım edecek sürücünün tanımlanması</span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">WebDriver</span> driver<span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Sürücüyü bekleten sürücü özelliği </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">;</span> 
+    
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        <span class="token class-name">Setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token comment">// Google sayfasını Açar </span>
+        driver<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"https://www.google.com/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Arama kutusunun bilgilerini getirir ve bunu yaparken “id”sini </span>
+        <span class="token comment">// kullanarak erişir </span>
+        <span class="token class-name">WebElement</span> txtSearch <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span><span class="token string">"lst-ib"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Arama kutusuna aranacak değerleri gönder </span>
+        txtSearch<span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span><span class="token string">"Oyak-Renault Bursa"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Enter tuşuna bas </span>
+        txtSearch<span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span><span class="token class-name">Keys</span><span class="token punctuation">.</span>ENTER<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+
+        <span class="token comment">// Arama sonuç listesi içindeki başlıkları getir </span>
+        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">WebElement</span><span class="token punctuation">></span></span> resultTitles <span class="token operator">=</span> driver<span class="token punctuation">.</span><span class="token function">findElements</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">className</span><span class="token punctuation">(</span><span class="token string">"r"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Başlıklardan istenilene tıkla </span>
+        resultTitles<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Driver’ın yönlendiği adresi getir ve eldeki address ile aynı </span>
+        <span class="token comment">// olup olmadığını JUnit kütüphanesindeki varsayım metoduyla </span>
+        <span class="token comment">// kontrol et </span>
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>driver<span class="token punctuation">.</span><span class="token function">agetCurrtenUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"&lt;https://www.oyak-renault.com>"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token class-name">Setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        service <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ChromeDriverService</span><span class="token punctuation">.</span><span class="token class-name">Builder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">usingDriverExecutable</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token class-name">ChromePath</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">usingAnyFreePort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token keyword">try</span> <span class="token punctuation">{</span> 
+            service<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+            e<span class="token punctuation">.</span><span class="token function">printStackTrace</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token punctuation">}</span> 
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">"webdriver.chrome.driver"</span><span class="token punctuation">,</span> <span class="token class-name">ChromePath</span><span class="token punctuation">)</span><span class="token punctuation">;</span> driver <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RemoteWebDriver</span><span class="token punctuation">(</span>service<span class="token punctuation">.</span><span class="token function">getUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token class-name">DesiredCapabilities</span><span class="token punctuation">.</span><span class="token function">chrome</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Tüm sayfalarda 15 saniye bekler</span>
+        wait <span class="token operator">=</span><span class="token operator">*</span><span class="token operator">*</span><span class="token keyword">new</span> <span class="token class-name">WebDriverWait</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+
+        <span class="token comment">// Pnecereyi büyütür </span>
+        driver<span class="token punctuation">.</span><span class="token function">manage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">window</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">maximize</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token class-name">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        driver<span class="token punctuation">.</span><span class="token function">quit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        service<span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<h2>POM(Project Object Model) ile Test Etmek</h2>
+<p>Aslına bakarsanız yukarıda yaptıklarımızdan hiç bir farkı yok ve olayın tek
+farkı işleri daha nesneye yönelik (Object Oriented) bir hale getirip hem kodun
+okunabilirliğini hem de JUnit tarafında daha kontrol edilebilir bir hale
+getirmektir.</p>
+<p><strong>Peki nasıl?</strong></p>
+<p>Öncelikle sayfalarınız ve testleriniz için ayrı birer package oluşturalım.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/2e68a16d6389f1ef213f1fa919aeeb1f/d3429/s13.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 451px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 65.85365853658536%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABhklEQVQoz5VR23LbIBT0//9RH/LUhzh1Z9KJE8W2EAZhG4HEVZFk0IUiNXmLm3Zn58xh5uzuAVaSX1hxIecLJgRAqJQCRNw9gG/rbJMUj7vT5pV+f8zWr9Xm1/bhha6T6j4R98/sR8JXlJ7BIT1CSGnRdZ33vul8KWouamk6bZpYK90o66SOfSuNk9ZL6yrVruxbQ+HTKXupjR2HISyYpimEcRqHaZxrmJb+T/1g7/3K+34cB1WgZA92kOaFwaxurv1sEf6Gvh+i2MchWeTbXbbdkxRXuyO3jVvyvxb3wzCa8kwwRBCygpaMOefCV3hPHqdgGM5RVlaimdFGv2nBx/1viJ3ztSkrdkb4GJMPhxShPDr+U7LzfckIBEkGYJRjhCOFkJyVWmsphJLqpvh69ZzjDOxBBrMUIIhIjhlFlxOSVdm2bW3tp4vP4rZzBPzEhyfGRfgfzOLu6t4UQcdUCikqobVRSsdVecHVAq10mG5/VXxPzqhe5qy1xkSaaGTNfIh2t5J/AyQa5ht8LIdAAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Package Explorer"
+        title=""
+        src="/static/2e68a16d6389f1ef213f1fa919aeeb1f/d3429/s13.png"
+        srcset="/static/2e68a16d6389f1ef213f1fa919aeeb1f/cf440/s13.png 148w,
+/static/2e68a16d6389f1ef213f1fa919aeeb1f/d2d38/s13.png 295w,
+/static/2e68a16d6389f1ef213f1fa919aeeb1f/d3429/s13.png 451w"
+        sizes="(max-width: 451px) 100vw, 451px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h3>Pages Paketi:</h3>
+<p>Bu paket içerisinde sayfalarımız ve sayfalarımızda bulunan Elementlere
+ulaştığımız sayfalara ait spesifik elementlerin tanımları ve fonksiyonel olarak
+gerçekleştirilecek işlemlere ait metotlar bulunur. Bu metotlara yardımcı olması
+ve kolaylaştırması için PageBase adında abstract bir super sınıf bulunmaktadır.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/12cb17c9bc75a7a76581345ab451fb8c/7bea8/s14.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 324px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 90.74074074074076%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACeklEQVQ4y4VRWWsTURSen+SC9VGsuIEIFt98sUg1fdFWqWCpPim1iILPIqKWLn+gGKoPJppWA2Zp9mW2ZLJ07r1zZ0nik/G7M6kkNeLwcTlz7vm+851zpcn52FicuetjfnCOrZH+Tp2683XqYXz2RfrW89T0cuL6cuLqoziS/yefnotde/zjylL84v3dqaX49NPEpQffEF9Y2B1DPntvZxjnF3Zuv9x7tlF5vaWtrJVX1iuIn6yWFl/lJ+di50aLpaMzkWMzkeP+KYKbkSM3Pp8Mfbm8+H1iNorMRCh6IhRFHpWHIG1+Ute21XdhBSfwPqwgfvtBebMlr4aV9W01wMZHFZWHIPV/dbnnNpndtuxuz8OptC2D2i3Lpo7T7/dQ8C9IFrfVJkvJptZiVYMlqmZaMbMaKdZoUjaTMmkR7jqObY+AcxuQmCXIhRpVmqzaYOU6zemkYlAEJR/1fatJOM4ABn5Ny2Q2iBJkam1rTyUJ0ccs1mlKIXmdZjSSP1DM6iSnkbRCcAVTUAz6S47jaC1Bhvw+5aguG6xUZ7LvomIw2EaN644g+AbktApJCppwbjC9zTIqkZuMQ99xPFcAFM+P/3wSLvWWhZnBR39YgucggwnBxnhw1KYcqyWIkXKGOmMHlQYDR24ITlIxMa0s/IvlYUjYwcBYDaQxv2XbQ52RNRjqCjpFUa5Giwd7hhY2x7nzs+N2PLfrub2OOBG7QWdIZsVuSfA2AaHoB9CFqaq/QmQQIwhelOKpQEYKA6MUznEHz+gPzxmNQhf5oi+X08UUYBr7eHaxAgnd1ZbwjCXjYfBCRbEz4QKZpslhCkIFsQULAWG81xnY/g0C9lWBGZTRkAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Page Base"
+        title=""
+        src="/static/12cb17c9bc75a7a76581345ab451fb8c/7bea8/s14.png"
+        srcset="/static/12cb17c9bc75a7a76581345ab451fb8c/cf440/s14.png 148w,
+/static/12cb17c9bc75a7a76581345ab451fb8c/d2d38/s14.png 295w,
+/static/12cb17c9bc75a7a76581345ab451fb8c/7bea8/s14.png 324w"
+        sizes="(max-width: 324px) 100vw, 324px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">PageBase</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> pages<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util</span><span class="token punctuation">.</span><span class="token class-name">List</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">By</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebElement</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>support<span class="token punctuation">.</span>ui</span><span class="token punctuation">.</span><span class="token class-name">WebDriverWait</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">PageBase</span> <span class="token punctuation">{</span> 
+    <span class="token keyword">public</span> <span class="token class-name">WebDriver</span> driver<span class="token punctuation">;</span> 
+    <span class="token keyword">public</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">;</span> 
+    
+    <span class="token comment">//Constructor </span>
+    <span class="token keyword">public</span> <span class="token class-name">PageBase</span> <span class="token punctuation">(</span><span class="token class-name">WebDriver</span> driver<span class="token punctuation">,</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        <span class="token keyword">this</span><span class="token punctuation">.</span>driver <span class="token operator">=</span> driver<span class="token punctuation">;</span> 
+        <span class="token keyword">this</span><span class="token punctuation">.</span>wait <span class="token operator">=</span> wait<span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">//Click Method </span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> click <span class="token punctuation">(</span><span class="token class-name">By</span> elementLocation<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+        driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>elementLocation<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+
+    <span class="token comment">//Write Text </span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> writeText <span class="token punctuation">(</span><span class="token class-name">By</span> elementLocation<span class="token punctuation">,</span> <span class="token class-name">String</span> text<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+        driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>elementLocation<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>elementLocation<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">sendKeys</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">//Read Text </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> readText <span class="token punctuation">(</span><span class="token class-name">By</span> elementLocation<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>elementLocation<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token comment">//Get List Of Elements </span>
+    <span class="token keyword">public</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">WebElement</span><span class="token punctuation">></span></span> <span class="token function">getElements</span><span class="token punctuation">(</span><span class="token class-name">By</span> elementLocation<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> driver<span class="token punctuation">.</span><span class="token function">findElements</span><span class="token punctuation">(</span>elementLocation<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token comment">//Get Element </span>
+    <span class="token keyword">public</span> <span class="token class-name">WebElement</span> <span class="token function">getElement</span><span class="token punctuation">(</span><span class="token class-name">By</span> elementLocation<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> driver<span class="token punctuation">.</span><span class="token function">findElement</span><span class="token punctuation">(</span>elementLocation<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>PageBase sınıfımızı tanımladıktan sonra şimdi basit bir şekilde ana sayfa ve
+giriş sayfalarımızda test etmek istediğimiz fonksiyonları bulunduran ve PageBase
+sınıfını kalıtan iki sınıf daha oluşturalım.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">HomePage</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">-</span>
+<span class="token keyword">package</span> pages<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">By</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>support<span class="token punctuation">.</span>ui</span><span class="token punctuation">.</span><span class="token class-name">WebDriverWait</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HomePage</span> <span class="token keyword">extends</span> <span class="token class-name">PageBase</span><span class="token punctuation">{</span> 
+    <span class="token comment">// Consturctor </span>
+    <span class="token keyword">public</span> <span class="token class-name">HomePage</span><span class="token punctuation">(</span><span class="token class-name">WebDriver</span> driver<span class="token punctuation">,</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+        <span class="token keyword">super</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span> wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        driver<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">"https://www.google.com/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token comment">// WebElements </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> btnMenuApps <span class="token operator">=</span> <span class="token string">"gbwa"</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// id </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> btnMenuMaps <span class="token operator">=</span> <span class="token string">"gb8"</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// id </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> btnMenuLogIn <span class="token operator">=</span> <span class="token string">"gb_70"</span><span class="token punctuation">;</span>
+    
+    <span class="token comment">// id </span>
+    <span class="token comment">// This method will use in test class </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">checkMenuLinks</span><span class="token punctuation">(</span><span class="token class-name">String</span> button<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">click</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span>button<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> driver<span class="token punctuation">.</span><span class="token function">getCurrentUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span>  </code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">LoginPage</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> pages<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">By</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>support<span class="token punctuation">.</span>ui</span><span class="token punctuation">.</span><span class="token class-name">WebDriverWait</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">LoginPage</span> <span class="token keyword">extends</span> <span class="token class-name">PageBase</span> <span class="token punctuation">{</span> 
+    <span class="token comment">// Constructor </span>
+    <span class="token keyword">public</span> <span class="token class-name">LoginPage</span><span class="token punctuation">(</span><span class="token class-name">WebDriver</span> driver<span class="token punctuation">,</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+        <span class="token keyword">super</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span> wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token comment">// WebElements </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> txtMail <span class="token operator">=</span> <span class="token string">"identifierId"</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// id </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> txtPassword <span class="token operator">=</span> <span class="token string">"password"</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// name </span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> btnNext <span class="token operator">=</span> <span class="token string">"CwaK9"</span><span class="token punctuation">;</span> 
+
+    <span class="token comment">// className </span>
+    <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">verifyUsernameAndPassword</span><span class="token punctuation">(</span><span class="token class-name">String</span> username<span class="token punctuation">,</span> <span class="token class-name">String</span> password<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span> 
+        <span class="token comment">// Email alanına yaz</span>
+        <span class="token function">writeText</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span>txtMail<span class="token punctuation">)</span><span class="token punctuation">,</span>username<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Devam et butonuna bas</span>
+        <span class="token function">click</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">className</span><span class="token punctuation">(</span>btnNext<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        
+        <span class="token comment">// Sayfanın yüklenmesi için bekle</span>
+        <span class="token class-name">Thread</span><span class="token punctuation">.</span><span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Sayfayı kontrol et</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>driver<span class="token punctuation">.</span><span class="token function">getCurrentUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">"pwd"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+            <span class="token comment">// şifreyi yaz</span>
+            <span class="token function">writeText</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">name</span><span class="token punctuation">(</span>txtPassword<span class="token punctuation">)</span><span class="token punctuation">,</span>password<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+            
+            <span class="token comment">// Sayfayı bekle </span>
+            <span class="token class-name">Thread</span><span class="token punctuation">.</span><span class="token function">sleep</span><span class="token punctuation">(</span><span class="token number">600</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+            
+            <span class="token comment">// giriş sonucunu döndür</span>
+            <span class="token keyword">return</span> driver<span class="token punctuation">.</span><span class="token function">getCurrentUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">contains</span><span class="token punctuation">(</span><span class="token string">"signinoptions"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span> 
+            <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span> 
+        <span class="token punctuation">}</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>Tüm bunlardan sonra Pages paketinizin tahmini görüntüsü aşağıdaki diyagram gibi
+olacaktır. Diğer sayfalarınızı da aynı şekilde PageBase sınıfından
+kalıtarak ve düzenleyerek oluşturabilir ve kolayca kullanabilirsiniz.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/c9da96a45180ca0f4a623566ac81714a/de365/s15.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 87.12998712998714%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACd0lEQVQ4y41SS0/UUBjtX3KlcWXUjWI0GF0ZF76ImpigLiBEdGMMCiZCCAnGnYkx8ojIxqArITxkHEAJMJ0ZSh8z7XRue9tO3+299WsLJvgI3pycnqbnfF/6fZcJYo9QkiQJoRSYk93DN2eP3Jo7cW/h4qMC4Fjn/NHbc4euf9nkW6kt9aVON7CYmIRJdvKwqLpne5YAl58UO4d/3Bn8fqVvpf3B19Ndi5Wandv+Et4tQWKurpclbX0HrXNIkHUVGUg3gaMozj3/DCeUiCou1/QMGmgZGVLTwIYJdQ8Oc7K+zqMtUStJmqqZpmkZpgWPOD4oTAmpqXhDQJuCti3rvAItLQww/i8sKHoJ2oqIlbRqTWMltF3XFYQPDieUun7oeCGw5QYtN3CD0AvCOI5oto594YiEhCa/sGdIT0woIHNn2PPEmcn5rTPJasImcwRQOCa5pnu8r7PtecgINDMAljVfxX6ucSvMm8NrDkXzGrqfaV+3Iss1mclZ8fjd+XM9S5ceF689W73Rv9reu3zy/sLVp6vZbXXOdC+1dS+e713uGFjr6F+78LBwqmuxrXt5pSIzRbbZ92br+bvS0ER55H3l1XR1dKoyOMa+/shBGJn+izF24G1paLw8+qH6EjBVGZ5gRyarnKIyYeQIKmbrOtfAOw3cxEYSOSSwSeRms6PIsKoKrmkGr2LHacFXGtlJ5Dm+wdiuDZeZlXRYJlxJYKmB4W6oupX9c8zL2gbfZGHtIuLqWkVKRQOZlovTaafTz7ZCSBLHFBClOhsspbjlQUtkuoruAEAD227oBCZT4Ge+iZ9SCLtcFFOALggzANAr0uc/sbA9/RNOoZTUyGwOjgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="PageBase Package UML"
+        title=""
+        src="/static/c9da96a45180ca0f4a623566ac81714a/b9e4f/s15.png"
+        srcset="/static/c9da96a45180ca0f4a623566ac81714a/cf440/s15.png 148w,
+/static/c9da96a45180ca0f4a623566ac81714a/d2d38/s15.png 295w,
+/static/c9da96a45180ca0f4a623566ac81714a/b9e4f/s15.png 590w,
+/static/c9da96a45180ca0f4a623566ac81714a/de365/s15.png 777w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h3>Tests Paketi:</h3>
+<p>Test paketi içerisinde sayfalarını ve metotlarını oluşturmuş olduğumuz
+sınıflarımızı JUnit kütüphanesi ve “Annotations” yardımı ile sınıfımızı
+oluşturuyoruz ve bu sınıfları daha sonra Run As -> JUnit şeklinde çalıştırıp
+test çıktılarımızı alıyor olacağız.</p>
+<p>TestBase sınıfı bir önceki örnek olan Kolay Bir Başlangıç’ta Main sınıfı
+içerisinde ayaklandırdığımız Setup() ve Stop() metotlarının yeniden
+kullanılabilir hale getirilmiş versiyonu denebilir.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/8df5d676b8085f1e8dd4e3f86160e1bf/17294/s16.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 326px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 70.24539877300614%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACaUlEQVQoz1WQ2U/UUBTG+yeZGEFiZAQl0QSV6JtoTJSwuLBrAqO+OGJwefDdKAzEB+ODT4AvJjIbzDAbKrN02ukMFGba2+W2HYmA4td2BG1+OTk99zv3O+cyVx7H28eiF8b/Z2z5vMt4Pfn39KI3eu7+UveLNNM+ttw8EDw1GDqguT8ERdfzNI6vP03emEx2eKOe/kNBy1DoxJ0AXBno8N86FHbxDIQuP4p1+hIwv+qL33yWgi0Mzt5bavmrOT0cPnk32OmLMx0PYq3D4TMjEdA2EsHZpYexJzN57+vMxCz76gPv8+cn37E9L9OewXDbqCMbjcDj2kSCaR2OHO1ebOgNHAM9gQYnNvYGjvcFGh2abgebbgXrAoeGvsCRri9wZd5/Lk3P81PzvH+Bn16wk6k5HpU3c/xbJ3HxLxTBzKfirIN/nv+4uM782qnJGmU3VaGqcRUtK6qFLZXoFDErKgo19vdqv3dt9ndrEO/+tFz2dn4wlBoJTl7OS4grBTm7riCusEBCMcpKXwWCSoy1NaWKRinVdaprumGYjGma30tkhZMRC6KyVlbiBTnFk3SRZMqkXNX4LY3bVAuiTVXRTaP+WZbFWJbp3p3k5dy6kuRIJCchT3IyZoGBaRrbNdOlZuHPrphuMzXMVUFeYqVMWUnxcjhnj4q74BxjpcW1aqmiokWnhqpToDmo7tiowhCd2FaUNaGiIs9tKKmivFYmeRE5gQAbYWanzUZBhmaM/U0gMXtswooqtk3w9v5wzm8oeWdV7LwhQU4tZ+DDsd0Hw4TOg6nu8vbknJwWyKpAkGfLyrZ18FKHD/YHXMh5wqg6P1wAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="TestBase Class"
+        title=""
+        src="/static/8df5d676b8085f1e8dd4e3f86160e1bf/17294/s16.png"
+        srcset="/static/8df5d676b8085f1e8dd4e3f86160e1bf/cf440/s16.png 148w,
+/static/8df5d676b8085f1e8dd4e3f86160e1bf/d2d38/s16.png 295w,
+/static/8df5d676b8085f1e8dd4e3f86160e1bf/17294/s16.png 326w"
+        sizes="(max-width: 326px) 100vw, 326px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">TestBase</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> basics<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>io</span><span class="token punctuation">.</span><span class="token class-name">File</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">AfterClass</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">BeforeClass</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">WebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>chrome</span><span class="token punctuation">.</span><span class="token class-name">ChromeDriverService</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>remote</span><span class="token punctuation">.</span><span class="token class-name">DesiredCapabilities</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>remote</span><span class="token punctuation">.</span><span class="token class-name">RemoteWebDriver</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium<span class="token punctuation">.</span>support<span class="token punctuation">.</span>ui</span><span class="token punctuation">.</span><span class="token class-name">WebDriverWait</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">TestBase</span> <span class="token punctuation">{</span> 
+    <span class="token comment">// İndirdiğimiz Chrome_driver.exe’nizin dizini </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token class-name">ChromePath</span> <span class="token operator">=</span> <span class="token string">"C:\\\\Users\\\\User\\\\Downloads\\\\WebDrivers\\\\Chrome\\\\chromedriver_win32\\\\chromedriver.exe"</span><span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Chrome Sürücülerinize ulaşmanızı sağlayan servis </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">ChromeDriverService</span> service<span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Asıl sürücümüz ve Selenium bize sağladığı en büyük nimet olan </span>
+    <span class="token comment">// bulunduğumuz internet sayfasındaki elemanara(elementlere) </span>
+    <span class="token comment">// ulaştığımız ve taracıyı kontrol ettiğimiz arkadaş </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">WebDriver</span> driver<span class="token punctuation">;</span> 
+    
+    <span class="token comment">// Sizin için sürücünüzü bekletecek özellik(opsiyonel) </span>
+    <span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token class-name">WebDriverWait</span> wait<span class="token punctuation">;</span>
+    
+    <span class="token comment">// Main fonksiyonumuz </span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token class-name">TestBase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+
+    <span class="token punctuation">}</span> 
+
+    <span class="token annotation punctuation">@BeforeClass</span> <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token class-name">Setup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        <span class="token comment">// Chrome_driver.exe dizininden servisi oluştur ve başlat </span>
+        service <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ChromeDriverService</span><span class="token punctuation">.</span><span class="token class-name">Builder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">usingDriverExecutable</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token class-name">ChromePath</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">usingAnyFreePort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token keyword">try</span><span class="token punctuation">{</span> 
+            service<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token punctuation">}</span><span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            e<span class="token punctuation">.</span><span class="token function">printStackTrace</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+            <span class="token punctuation">}</span> 
+        <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">"webdriver.chrome.driver"</span><span class="token punctuation">,</span> <span class="token class-name">ChromePath</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Driver nesnesini service bilgilerini kullanarak oluştur </span>
+        driver <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RemoteWebDriver</span><span class="token punctuation">(</span>service<span class="token punctuation">.</span><span class="token function">getUrl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token class-name">DesiredCapabilities</span><span class="token punctuation">.</span><span class="token function">chrome</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Bütün sayfaları açarken 15ms bekle </span>
+        wait <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">WebDriverWait</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span><span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        
+        <span class="token comment">// Penceri Büyüt </span>
+        driver<span class="token punctuation">.</span><span class="token function">manage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">window</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">maximize</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token annotation punctuation">@AfterClass</span> <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token class-name">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        service<span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        driver<span class="token punctuation">.</span><span class="token function">quit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>HomeTest sınıfımızı hazırlarken <strong>@Test</strong> annotation’ı ile test metotlarımızı
+oluşturuyoruz bu metotlar void olmak zorundadır.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">HomeTest</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> tests<span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token keyword">static</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">Assert</span><span class="token punctuation">.</span>*<span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">Test</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> pages<span class="token punctuation">.</span><span class="token class-name">HomePage</span><span class="token punctuation">;</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HomeTest</span> <span class="token keyword">extends</span> <span class="token class-name">TestBase</span><span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Test</span> <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">valid_checkMenuLinks</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span><span class="token punctuation">{</span> 
+        <span class="token class-name">HomePage</span> home <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HomePage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span><span class="token function">checkMenuLinks</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuApps<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"https://www.google.com/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span><span class="token function">checkMenuLinks</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuLogIn<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"https://accounts.google.com/signin/v2/identifier?hl=en\&amp;passive=true&amp;continue=https%3A%2F%2Fwww.google.com%2F&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span><span class="token function">checkMenuLinks</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuMaps<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"https://www.google.fr/maps?hl=en\&amp;tab=wl"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token annotation punctuation">@Test</span> <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">invalid_checkMenuLinks</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span> 
+        <span class="token class-name">HomePage</span> home <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HomePage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertNotEquals</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span><span class="token function">checkMenuLinks</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuApps<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"https://www.google.com/123"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertNotEquals</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span><span class="token function">checkMenuLinks</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuLogIn<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"testedLink.com"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertNotEquals</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span><span class="token function">checkMenuLinks</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuMaps<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token string">"test"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>LoginTest sınıfınıda aşağıdaki gibi doldururduğumuz takdirde testimizi
+başlatabiliriz.</p>
+<div class="gatsby-highlight" data-language="java"><pre style="counter-reset: linenumber NaN" class="language-java line-numbers"><code class="language-java"><span class="token class-name">LoginTest</span><span class="token punctuation">.</span>java
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+<span class="token keyword">package</span> tests<span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token keyword">static</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">Assert</span><span class="token punctuation">.</span>*<span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>junit</span><span class="token punctuation">.</span><span class="token class-name">Test</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> <span class="token namespace">org<span class="token punctuation">.</span>openqa<span class="token punctuation">.</span>selenium</span><span class="token punctuation">.</span><span class="token class-name">By</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> pages<span class="token punctuation">.</span><span class="token class-name">HomePage</span><span class="token punctuation">;</span> 
+<span class="token keyword">import</span> pages<span class="token punctuation">.</span><span class="token class-name">LoginPage</span><span class="token punctuation">;</span> 
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">LoginTest</span> <span class="token keyword">extends</span> <span class="token class-name">TestBase</span> <span class="token punctuation">{</span> 
+    <span class="token annotation punctuation">@Test</span> <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">valid_UsernameAndPassword</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span> 
+        <span class="token class-name">HomePage</span> home <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HomePage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token class-name">LoginPage</span> login <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LoginPage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        home<span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuLogIn<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>login<span class="token punctuation">.</span><span class="token function">verifyUsernameAndPassword</span><span class="token punctuation">(</span><span class="token string">"thejengo0o\@gmail.com"</span><span class="token punctuation">,</span> <span class="token string">"successPasword"</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+
+    <span class="token annotation punctuation">@Test</span> <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">invalid_UsernameAndPassword</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span> 
+        <span class="token class-name">HomePage</span> home <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HomePage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token class-name">LoginPage</span> login <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LoginPage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        home<span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuLogIn<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>login<span class="token punctuation">.</span><span class="token function">verifyUsernameAndPassword</span><span class="token punctuation">(</span><span class="token string">"thejengo0o\@gmail.com"</span><span class="token punctuation">,</span> <span class="token string">"failPassword"</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+    
+    <span class="token annotation punctuation">@Test</span> <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">empty_UsernameAndPassword</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">InterruptedException</span> <span class="token punctuation">{</span> 
+        <span class="token class-name">HomePage</span> home <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HomePage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token class-name">LoginPage</span> login <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LoginPage</span><span class="token punctuation">(</span>driver<span class="token punctuation">,</span>wait<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        home<span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token class-name">By</span><span class="token punctuation">.</span><span class="token function">id</span><span class="token punctuation">(</span>home<span class="token punctuation">.</span>btnMenuLogIn<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+        <span class="token function">assertEquals</span><span class="token punctuation">(</span>login<span class="token punctuation">.</span><span class="token function">verifyUsernameAndPassword</span><span class="token punctuation">(</span><span class="token string">""</span><span class="token punctuation">,</span> <span class="token string">""</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>Test paketi için Oluşması beklenen sınıf diyagramı :</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/c3811f125c80371cb848adc459cf6488/fbae2/s17.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 92.4731182795699%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACYUlEQVQ4y4VTW08TQRTef6TGFyVEE6M+GF/UGPAV9YVbYjDRB6KiifFJ438wvvjgmxEKBugFul0ElxYLhVJKl233MjO73e3eZnY9yyZNFSlfvpycs3O+meyZbzjdltseoSwImA9kYRBF4X/JQuozL2lLyHnUDUMWwSI0RJFu+rO8Mi+oKUFdWNOAqQIk6ve8Umt2um0JONggyRiLPwtlfPHx0sBY+tqT3PBr4cGbtRtTucHxzLmRxc+pBjRQFp4q/rVr3Hq2eneaH54RRj+IEx/FkXfrd6b561O5r2n5VHECzws2Kkq+rBS2lWyxuV5RSlW12kD1I2RaTnT896eKo5AWDzSxpq1X1Z9V7VAhLZ0gw+zYpu970d/4V0wpLde1cl0v1tRiTduTkKITjA0dEdd1zxCHjO3JZPeI7Ei43MAQZd20bduyLN/3zxD3IqBh73hOop8YlKy/2KceY/E9ASkN/R4HeScIDUlnwn4nM7Be2PfkXYlkRLRSQvktnCsi/jdeLcUl5I7HOi7NiPqyqGc29fQmJFqciPrihrZzaHHvv2yff7h8ZTJ7+zk/9Grt/ksBjDk4nr08mjlUOuBn8Oal0fTVyey9F4WhGeHm09WBscyFR0tvP1W40r76LddI8RJwviAtFOJkLi/N8ZLtBMCkhKUfQhzneWmBl2ZXGlv7mHPd9pGGJQ3XW7iuYPATlLUWwoYRxa+NEdOUVKwg0kTkoIU1Yviu5TttGric43WI5RqWCxG3HdN2gdiKYwhgTFYJ+Kwqo4MmqUhoXyaG2TYN03GcftPuvjbavZ7j+XfxB4a31jl2gwGYAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="TestBase Package UML Diagram"
+        title=""
+        src="/static/c3811f125c80371cb848adc459cf6488/b9e4f/s17.png"
+        srcset="/static/c3811f125c80371cb848adc459cf6488/cf440/s17.png 148w,
+/static/c3811f125c80371cb848adc459cf6488/d2d38/s17.png 295w,
+/static/c3811f125c80371cb848adc459cf6488/b9e4f/s17.png 590w,
+/static/c3811f125c80371cb848adc459cf6488/fbae2/s17.png 744w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Tüm diyagram ise aşağıdaki gibi olur:</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/c5b0f9c8968b348327551e2798ae69cd/a0105/s18.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 37.38450604122246%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABRUlEQVQY002PO0/DMBSF88NZGBg6UCEEC1QVj6FQQYfyEEUIqWJAapHoUiqS9BXRNn0kcRI7dmLH5rYGhH2Gq+v7XZ9jkBQrpZ7e3O2T3t6VVah8plxIlYtcqM3JZc44VUq2el6j7YJePzxoQ9/QQ++mX7rr15pO/cURudSMhqWUui7fj7bK3Z3z3unDSD8ZQq5hTKk98+Y+YnRtRCr5Hxabeo7irrNyvZBn9AfONzBL+QIRUET0A8ACLIDg6kUQJ6ZZwrj83WtESRoRHsTQFSzLEeaIcIQzLiA5fAv+JaZZnAgQDBAmQsyjRGAqjIvncbFq7V9bjZbbsVChYh7fDI/qgwAzvR4MnDWGB7V+sWo2O8vHtrt7aR7W7NLt0IAM9jSYLBEmNCKs56wGU3+2Qlzwv8xzP/pagEIY8EJiT/yxi4Iw/gZ2FYI/RdU9oAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Tüm Paketlerin Diagramı"
+        title=""
+        src="/static/c5b0f9c8968b348327551e2798ae69cd/b9e4f/s18.png"
+        srcset="/static/c5b0f9c8968b348327551e2798ae69cd/cf440/s18.png 148w,
+/static/c5b0f9c8968b348327551e2798ae69cd/d2d38/s18.png 295w,
+/static/c5b0f9c8968b348327551e2798ae69cd/b9e4f/s18.png 590w,
+/static/c5b0f9c8968b348327551e2798ae69cd/f9b6a/s18.png 885w,
+/static/c5b0f9c8968b348327551e2798ae69cd/2d849/s18.png 1180w,
+/static/c5b0f9c8968b348327551e2798ae69cd/a0105/s18.png 1407w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<h2>Test Sonuçları</h2>
+<p>Yazdığımız onda koddan ve sayfalar üzerinde “name,id,className” vs. aradıktan
+sonra sıra projemizin üzerine sağ tık yapıp Run As -> JUnit Test diyerek
+testlerimizi başlatabiliriz.</p>
+<p>Korkmayın yine otomatik olarak Chrome açılacak ve sizin yerinize bir sürü test
+yapacak. Hepsi bittiği zaman Eclipse üzerinde JUnit penceresinde aşağıdaki gibi
+bir ekran size bekliyor olacaktır.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/b2e190be0be960f5685d0f6288840240/c7805/s20.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 400px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 74.25%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACUElEQVQoz31SyW7bMBTU/wO51Uv6Fe2hl9yCArZlJ3ETWQu1kZSszdopStRiWaXTogWStPMGfI/LgEPwCU+SfLdSvtyr376rX+/Vu52NQi8IvCDyT2m1NchGr0RAREA3gKy1ko8rJVsdwrUcCWF0Ck657eXIzyw3dU6EtLTv2qoqG8YsO9FVB7iJBJHpJMgrrWOmu4kTEuQXQkVoWRS0zKuy7FjDKCUlybKcMTZNY5IUNPEqWlR1yOq8Z03LmprVl/E8TZMQxwmC2HVdjJ2QI+AMjtghVdW2Xdt13TBci7ZvuJP2Cr7Gq67rhaZpIy+khMZR3LN+6MeR1CU8RmGSp0VVVB3rCGHYPWETp3FaZCWjrGvaoR8EEBtzeb6UF0t5Npc+cS74VF3eKgvOpTxfHGa8+KwuF8pifpjPJH5sdrO/2UZbIaP5o7cX0Y8NlHauvEEva/uZc4MkEUlr+Lx1Ditrv8OSlgCQXqlnupZqcR0LQ382A3+rmOIeiU9YfMSbR7R+QLuXYPWAtnv34dm9f3L3IB3H6Q2Etut5slP+Ig1DZBk6gjYPUweGbmAEXc83stolzTCOl+nyh3/FZooBVGwDwqveMk1b14CiaJZpOV5oJBXK6+kdBP4VCYmNo25apm1YhmHaNvz9ZX7g+x7vNSulIK6G8fJO3A4Jza3A4k4d5GCEuWfE9UHAxXFOjkXjFE3Tnz+4+ZdtkECAVGhCaNuaogENGBqwkWtl9Eia9jxOH0Ho+oGnpm/Za1z757WNeM23uvPYn9/ZfSP+P/4l/gmrBzGAfuRAbgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Test Sonuçları Başarılı"
+        title=""
+        src="/static/b2e190be0be960f5685d0f6288840240/c7805/s20.png"
+        srcset="/static/b2e190be0be960f5685d0f6288840240/cf440/s20.png 148w,
+/static/b2e190be0be960f5685d0f6288840240/d2d38/s20.png 295w,
+/static/b2e190be0be960f5685d0f6288840240/c7805/s20.png 400w"
+        sizes="(max-width: 400px) 100vw, 400px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Geçmiş olsun testlerimizi başarıyla tamamlamış bulunuyoruz hepsi inanın bu kadar
+kolay ve güzel.</p>
+<p><strong>Test Sonuçlarının Başarısız olması,</strong></p>
+<p><img src="media/st5.png" alt="Test Sonuçları Başarısız"></p>
+<p>Test sonuçlarının başarısız olması durumunda yukarıdaki görüntüde değişiklik olarak başarısız olan test üzerinde “Error” ibaresi bulunuyor olacaktır ve JUnit sekmesi altında yer alan “Failure Trace” üzerinden başarısız olan veya hata meydana gelen testlerinizin “Root cause”larına ulaşabiliyor olacaksınız.</p>
+<p><strong>Karşılaşılan genel hatalara naçizane öneriler ve ipuçları</strong></p>
+<ol>
+<li>En sık karşılaşılan hata durumu WebElement’lerinin sayfa içinde bulunamaması ya da erişiliememesi. Bunun sebebi genellikle “xpath, cssSelector” gibi By sınıfı üzerinden gönderilen ifadelerin tarayıcıdan tarayıcıya ya da yeni elementler eklenmesi durumlarında değişmeleri. Sürekli güncelleme ve bakım gerektirecektir. Bu seçiciler yerine “name, id, cssClassName” gibi daha sabit ve oturaklı seçicileri kullanmanızı tavsiye ederim.</li>
+<li>assertEquals() metodunu kullanırken elinizden geldiğince primitive(ilkel) tipler ile kullanmaya çalışın. Sizin açınızdan da sizden sonra kodu okuyacak olanlar açısından da kodu takip etmesi kolaylaşır.</li>
+<li>assertEquals() içine gönderdiğiniz parametreleri doğru hesaplayın.</li>
+<li>UnReachableRemoteException adında bir hata var bu hata genellikle test simülasyonu çalışırken simülasyon ortamını/tarayıcısını kapattığınız da veya test sonucunda service ve driver nesnelerinin doğru şekilde sonlandırılmadığı zamanlarda çıkar. Benim çok canımı sıkan bir hataydı.</li>
+<li>Alert gibi Select gibi farklı çıktılara erişirken sistem çok hızlı çalıştığı için sistemi Thread.sleep(300–500) gibi komutlarla yavaşlatıp alertleri ve selectleri doğru bir şekilde yakalamak.</li>
+<li>GET / POST gibi HTTP istekleri yaparken yine yukarıdaki gibi Thread.sleep(2000) gibi değerler kullanıp sistem cevap verdikten sonra simülasyonu devam ettirmek. Yoksa 1. maddedeki hatalarla karşılaşmamanız işten bile değil.</li>
+<li>Fail olan testlerinizin neden fail olduğunu güzelce incelemek Failure Trace’i iyi okumak yetersiz bulunursa “Errors, Problems, Console” sekmelerinden hataları takip etmek gerekirse bol bol googlelamak.</li>
+<li>POM’u iyi anlamak ve uygulamak.</li>
+<li>Kütüphaneleri doğru tanımladığımızdan ve Build Path’e eklediğimizden emin olmak.</li>
+<li>Sakin, sabırlı ve yapıcı olmak :) (Faydası büyük)</li>
+</ol>
+<h2>TestNG</h2>
+<p>Testlerinizi daha kusursuz ve düzenli geliştirmek isterseniz kullanabileceğiniz
+yardımcı kütüphanedir. Testlerinizi önceliklendirebilir, geliştirebilir ve daha
+düzgün çıktılar ile hata raporlarını gözleyebilirsiniz. Şu an için yukarıdakiler
+yeterli olacaktır. Merak edenler için <a href="https://testng.org/doc/index.html">https://testng.org/doc/index.html</a>
+adresinden daha detaylı bilgilere ulaşabilirler.</p>
+<h2>Özet</h2>
+<p>Uzun lafın kısası olarak yukarıdakilerin hepsini özetlemeye çalışırsak,</p>
+<ol>
+<li>
+<p>Kurulum ilgili dosyaların indirilmesi kurulması</p>
+</li>
+<li>
+<p>Java projesinin oluşturulması ve indirilen dosyaların enjektesi</p>
+</li>
+<li>
+<p>İsterseniz direkt bir main dosyası içinde küçük deneyler için</p>
+</li>
+<li>
+<p>İsterseniz büyük ve detaylı siteleriniz içim POM ile nesneye yönelik ve esnek bir yapı ile testlerinizi kontrol etmek</p>
+</li>
+<li>
+<p>Testi çalıştırma hataları ve takip etme</p>
+</li>
+<li>
+<p>İpuçları ve Püf noktalarına dikkat etme</p>
+</li>
+<li>
+<p>Daha fazla ve detaylı testler için TestNG</p>
+</li>
+</ol>
+<p>Özeti de yaptığımıza göre yazının sonuna gelmiş bulunduk, biraz uzunda olsa
+umarım hepiniz sıkılmadan eminim okudunuz, buralara kadar direkt gelmediğinizi
+tahmin ederekten iyi günler dilerim.</p>
+<p>Medium da görüntülemek için: <a href="https://medium.com/@thejengo/15-dakikada-selenium-i%CC%87le-testlenin-1efff75b1650">15 Dakika Da Selenium İle Testlenin</a></p>
+<p><strong>T E S T L E N D İ N İ Z !</strong></p></div></div></div><div style="font-family:avenir" class="row"><div class="col-lg-6 col-md-6 col-6"><span style="float:left"></span></div><div style="float:right" class="col"><a href="/15-dakikada-jira-ile-organize-olun">15 Dakikada Jira ile Organize Olun<!-- --> | Next <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg></a></div></div></div></div></main><footer><div class="justify-content-md-center row"><div style="text-align:center;margin:0 auto" class="col-lg-10 col-md-12 col-12">© <!-- -->2019<!-- -->, Built with<!-- --> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="red" style="color:red" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg> by<!-- --> <a href="https://github.com/thejengo" rel="noopener noreferrer">TheJengo</a></div></div><div class="row"><div style="text-align:center;margin:0 auto" class="col-lg-3 col-md-12 col-12"><div class="row"><div class="justify-content col"><p align="center"><a href="https://www.linkedin.com/in/cengiz-cebeci/" rel="noopener noreferrer" target="_blank" style="opacity:1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="gray" style="color:gray" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></p></div><div class="justify-content col"><p align="center"><a href="https://github.com/thejengo" rel="noopener noreferrer" target="_blank" style="opacity:1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" color="gray" style="color:gray" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></p></div><div class="justify-content col"><p align="center"><a href="https://medium.com/@thejengo" rel="noopener noreferrer" target="_blank" style="opacity:1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="gray" style="color:gray" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"></path></svg></a></p></div><div class="justify-content col"><p align="center"><a href="https://instagram.com/thejengo" rel="noopener noreferrer" target="_blank" style="opacity:1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="gray" style="color:gray" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a></p></div><div class="justify-content col"><p align="center"><a href="https://twitter.com/thejengo" rel="noopener noreferrer" target="_blank" style="opacity:1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="gray" style="color:gray" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></p></div></div></div></div></footer></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"15-dakikada-selenium-ile-testlenin-2e0","path":"/15-dakikada-selenium-ile-testlenin"};window.dataPath="626/path---15-dakikada-selenium-ile-testlenin-2-e-0-dd3-zZZbI5kO3PgeXy6LVJu2hASHqng";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-1e14bf529a656de4784f.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-3cffb65eecfe7e58f1b2.js"],"component---src-templates-all-tags-index-js":["/component---src-templates-all-tags-index-js-592955859b240b493a00.js"],"component---src-templates-single-tag-index-js":["/component---src-templates-single-tag-index-js-a4c194fea0c01a32eac4.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-5c9925bf034f50533d9e.js"],"component---src-pages-404-js":["/component---src-pages-404-js-8791c247b9a453ff21aa.js"],"component---src-pages-about-js":["/component---src-pages-about-js-d77aff84ec62e596bf46.js"],"component---src-pages-blog-js":["/component---src-pages-blog-js-4a540bdb5fce55d1b41c.js"],"component---src-pages-index-js":["/component---src-pages-index-js-347f5a18240742ad1aa6.js"],"component---src-pages-project-js":["/component---src-pages-project-js-d2baab3f8384f34ec90e.js"],"component---src-pages-work-js":["/component---src-pages-work-js-1dd759c00799a792cec3.js"],"pages-manifest":["/pages-manifest-f718c6e2e2451fd2b8ff.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-5c9925bf034f50533d9e.js" async=""></script><script src="/1-8cb043ed89e8da732c33.js" async=""></script><script src="/styles-b5291e72e1cec0275602.js" async=""></script><script src="/app-1e14bf529a656de4784f.js" async=""></script><script src="/webpack-runtime-6c630f63089c4bb11eb8.js" async=""></script></body></html>
