@@ -1,1 +1,0 @@
-{"data":{"markdownRemark":{"html":"<p>Test edildiniz</p>","frontmatter":{"title":"My second post","featuredImage":"./gatsby-astronaut.png"}}},"pageContext":{"pathSlug":"/second-post","prev":{"frontmatter":{"path":"/first-post","title":"My first post","tags":["this","that"]}},"next":{"frontmatter":{"path":"/third-post","title":"My third post","tags":["this","that"]}}}}
