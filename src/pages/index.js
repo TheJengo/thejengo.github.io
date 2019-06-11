@@ -51,7 +51,7 @@ class IndexPage extends Component {
                   }
                 }
               },
-              profilePhoto3: file(relativePath: {eq: "Home/ppPThree.jpeg"}){
+              profilePhoto3: file(relativePath: {eq: "Home/ppFour.JPG"}){
                 childImageSharp{
                     fluid(maxWidth: 2080, quality: 100){
                         aspectRatio
