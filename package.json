@@ -40,7 +40,13 @@
     "typography-theme-funston": "^0.16.19"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "developer",
+    "javascript",
+    "portfolio",
+    "react",
+    "thejengo",
+    "cengizcebeci"
   ],
   "license": "MIT",
   "scripts": {
